@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+  }
+
+/*Start nav*/
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.navbar-brand img{
+  height: 2.6rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: rgb(255, 167, 66);
+  padding-top: 3rem;
+}
+.nav-link {
+padding-top: 2.8rem !important ;
+}
+.nav-link:hover{
+  color: #FFFFFF !important;
+  opacity: 0.5;
+}
+
+.nav-bar__style {
+  width:10%;
+  padding-top: 2.2rem;
+  margin-left: -3rem;
+}
+.navbar-left-margin {
+  margin-left: 3rem;
+}
+
+@media (max-width: 768px) {
+  .navbar-left-margin
+      {
+          margin-left: 0rem;
+
+      }
+  .nav-bar__style {
+      margin-left: 0rem;
+  }
+}
+
+.navbtn-style {
+  margin-top: 2rem;
+}
+/*End nav*/
+.imga{
+    width: 100%;
+    height: auto;
+    animation: Updown 1s infinite alternate;
+    position: fixed;
+    margin: 0px 0px 0px 0px;
+}
+@keyframes Updown {
+    from {
+      margin-top: 0px;
+    }
+    to {
+      margin-top: 20px;
+    }
+  }
+
+.line1{
+color: #ffffff;
+display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: '微軟正黑體','Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  margin: 7rem 0px 0px 0px;
+}
+
+.line2{
+  color: #ffff00;
+  display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: '微軟正黑體','Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px 0px 0px 0px;
+  }
+  .jb{
+ 
+    background-image:  -webkit-linear-gradient(180deg, #ffffff,  #ff7f00 25%, #ffff00  50%, #00ff00 75%, #ff7f00);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    background-size: 100% 600%;
+    animation: jb 50s linear infinite;
+  }
+  
+  @keyframes jb {
+    0% {
+      background-position: 0 0;
+    }
+  
+    100% {
+      background-position: 0 400%;
+    }
+  }
+  .txt{
+    color: #ffffff;
+  font-family: '微軟正黑體','Roboto', sans-serif;
+  font-size: 20px;
+  margin: 30px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+flex-direction: column;
+letter-spacing: 2px;
+    line-height: 40px;
+  }

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="ie=edge"
+    >
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous"
+    >
+    <link
+        rel="stylesheet"
+        href="./css/style.css"
+    >
+    <link
+        rel="stylesheet"
+        href="./css/SignUp.css"
+    >
+
+    <title>探索宇宙/註冊會員</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+        <div class="container">
+
+            <a
+                class="navbar-brand abs nav-bar__style"
+                href="index.html"
+            >
+                <img
+                    class="logo"
+                    src="img/探索宇宙.png"
+                    alt="探索宇宙"
+                >
+            </a>
+            <button
+                class="navbar-toggler navbtn-style"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarResponsive"
+            >
+                <span class="fas fa-bars"></span>
+            </button>
+
+            <div
+                class="collapse navbar-collapse"
+                id="navbarResponsive"
+            >
+
+                <ul class="navbar-nav navbar-left-margin">
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="latest.html"
+                        >最新消息</a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="project.html"
+                        >本期專題</a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="star.html"
+                        >星系介紹</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a
+                            class=" nav-link"
+                            href="login.html"
+                        >登入</a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="signUp.html"
+                        >註冊</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="card mx-auto border-lg login-card">
+        <div class="card-body">
+            <h4 class="text-center pb-5 black-text font-weight-bold">註冊會員</h4>
+            <form action="">
+
+                <div class="form-group">
+                    <input
+                        type="text"
+                        class="form-control input-bottom"
+                        placeholder="請輸入電郵地址"
+                    >
+                </div>
+                <div class="form-group">
+                    <input
+                        type="password"
+                        class="form-control input-bottom"
+                        placeholder="請輸入密碼"
+                    >
+                </div>
+                <div class="form-group">
+                    <input
+                        type="password"
+                        class="form-control input-bottom"
+                        placeholder="確認密碼"
+                    >
+                </div>
+                <div class="form-check pb-3">
+                    <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="rememberMe"
+                    >
+                    <label
+                        class="form-check-label black-text"
+                        for="rememberMe"
+                    >
+                        記住我
+                    </label>
+                </div>
+
+            </form>
+            <div>
+                <button
+                    type="button"
+                    class="btn btn-lg btn-block login-button font-weight-bold"
+                >註冊</button>
+                <button
+                    type="button"
+                    class="btn btn-lg btn-block signup-button font-weight-bold"
+                >登入</button>
+            </div>
+            <div class="or">
+                <hr />
+                <p>或</p>
+                <hr />
+            </div>
+            <div class="d-flex flex-wrap mx-auto justify-content-center mt-3 another-area">
+                <div class="w-50 loginicongoogle">
+                    <img
+                        src="./img/google.png"
+                        alt=""
+                    >
+                </div>
+                <div class="w-50 loginiconfb">
+                    <img
+                        src="./img/fb.png"
+                        alt=""
+                    >
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <footer
+        style="background: #000;"
+        class="pt-4 mt-4"
+    >
+        <p class="text-center mb-0 ">前端期末專題: 數位二甲 110719040 洪湘芸/ 數位二甲 110719044 李智鈴 製作</p>
+        
+    </footer>
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+    ></script>
+    <script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
+
+</body>
+
+</html>

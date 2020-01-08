@@ -1,0 +1,182 @@
+
+html{
+    /* background-color: #000000; */
+    /* background: silver; */
+    margin:0;
+    /* background-size: cover; */
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: #FFFFFF;
+    width: 100%;
+
+}
+
+/*Start nav*/
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.navbar-brand img{
+    height: 2.6rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #FFFFFF;
+    padding-top: 3rem;
+}
+.nav-link {
+  padding-top: 2.8rem !important ;
+  color: orange !important;
+}
+.nav-link:hover{
+    color: #FF8A00 !important;
+    opacity: 0.5;
+}
+
+.nav-bar__style {
+    width:10%;
+    /* padding-left: 2.2rem;  */
+    padding-top: 2.2rem;
+    margin-left: -3rem;
+}
+.navbar-left-margin {
+    margin-left: 3rem;
+}
+
+ @media (max-width: 768px) {
+    .navbar-left-margin
+        {
+            margin-left: 0rem;
+
+        }
+    .nav-bar__style {
+        margin-left: 0rem;
+    }
+ }
+
+.navbtn-style {
+    margin-top: 2rem;
+}
+/*End nav*/
+/*Start slider*/
+.imgA {
+  display: block;
+  width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+
+}
+
+@keyframes round {
+  4% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* 0 - 1秒 淡入*/
+  }
+
+  20% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* 1- 5秒靜止*/
+  }
+
+  24% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    /* 5-6秒淡出*/
+  }
+}
+
+.slider_container {
+  margin: auto;
+  /* margin-top: 5rem; */
+  position: relative;
+}
+
+.slider_container div {
+  position: absolute;
+  top: 80;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.slider_container div {
+  -webkit-animation: round 25s linear infinite;
+  animation: round 25s linear infinite;
+}
+
+@media (max-width: 768px) {}
+
+@-webkit-keyframes round {
+  4% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* 0 - 1秒 淡入*/
+  }
+
+  20% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /* 1- 5秒靜止*/
+  }
+
+  24% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    /* 5-6秒淡出*/
+  }
+}
+
+.slider_container div:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.slider_container div:nth-child(2) {
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.slider_container div:nth-child(3) {
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+}
+
+.slider_container div:nth-child(4) {
+  -webkit-animation-delay: 15s;
+  animation-delay: 15s;
+}
+
+.slider_container div:nth-child(5) {
+  -webkit-animation-delay: 20s;
+  animation-delay: 20s;
+}
+  /* end slider */
+
+.footerA{
+    padding-top: 30px;
+    padding-left: 130px;
+    font-family: "微軟正黑體",Arial;
+    font-size: 14px;
+    text-align: center;
+    /* width: 1260px; */
+    height:50px;
+    color: #A0A0A0;
+    background-color: #000000;
+    position: absolute;
+    margin-top: 350px;
+} 
+.footer {
+  background: #000;
+  position: absolute;
+ bottom: 0px;
+}

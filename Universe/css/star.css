@@ -1,0 +1,396 @@
+body{
+    background-color: #000000;
+    margin:0;
+    padding: 0;
+}
+/*Start nav*/
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.navbar-brand img{
+    height: 2.6rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(255, 167, 66);
+    padding-top: 3rem;
+}
+.nav-link {
+  padding-top: 2.8rem !important ;
+}
+.nav-link:hover{
+    color: #FFFFFF !important;
+    opacity: 0.5;
+}
+
+.nav-bar__style {
+    width:10%;
+    padding-top: 2.2rem;
+    margin-left: -3rem;
+}
+.navbar-left-margin {
+    margin-left: 3rem;
+}
+
+ @media (max-width: 768px) {
+    .navbar-left-margin
+        {
+            margin-left: 0rem;
+
+        }
+    .nav-bar__style {
+        margin-left: 0rem;
+    }
+ }
+
+.navbtn-style {
+    margin-top: 2rem;
+}
+/*End nav*/
+
+.starworld{
+    display: flex;
+}
+
+@media(max-width:400px){
+    .sun{
+        width: 470px;
+        height: 470px;
+        margin-top: 150px;
+        margin-left: -300px;
+        position: absolute;
+    }
+    .suntxt{
+        margin-top: 150px;
+        margin-left: 150px;
+        transform: rotate(-45deg);
+        font-family: "微軟正黑體",Arial;
+        font-weight: bold;
+        color: #ffffff;
+    }
+}
+.sun{
+    width: 470px;
+    height: 470px;
+    margin-top: 150px;
+    margin-left: -250px;
+    position: absolute;
+}
+.suntxt{
+    margin-top: 150px;
+    margin-left: 200px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+@media(max-width:400px){
+    .mercury{
+        display: none;
+    }
+    .mercurytxt{
+        display: none;
+    }
+}
+   
+.mercury{
+    width: 20px;
+    height: 20px;
+    margin-top: 400px;
+    margin-left: -20px;
+    position: absolute;
+}
+.mercurytxt{
+    margin-top: 150px;
+    margin-left: 130px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+@media(max-width:550px){
+    .venus{
+        display: none;
+    }
+    .venustxt{
+        display: none;
+    }
+}
+.venus{
+    width: 30px;
+    height: 30px;
+    margin-top: 395px;
+    margin-left: -40px;
+    position: absolute;
+}
+.venustxt{
+    margin-top: 150px;
+    margin-left: 30px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+@media(max-width:650px){
+    .earth{
+        display: none;
+    }
+    .earthtxt{
+        display: none;
+    }
+}
+
+.earth{
+    width: 40px;
+    height: 40px;
+    margin-top: 393px;
+    margin-left: -40px;
+    position: absolute;
+}
+.earthtxt{
+    margin-top: 150px;
+    margin-left: 30px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+@media(max-width:700px){
+    .mars{
+        display: none;
+    }
+    .marstxt{
+        display: none;
+    }
+}
+
+.mars{
+    width: 20px;
+    height: 20px;
+    margin-top: 400px;
+    margin-left: -40px;
+    position: absolute;
+}
+.marstxt{
+    margin-top: 150px;
+    margin-left: 30px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+@media(max-width:870px){
+    .jupiter{
+        display: none;
+    }
+    .jupitertxt{
+        display: none;
+    }
+}
+.jupiter{
+    width: 235px;
+    height: 170px;
+    margin-top: 320px;
+    margin-left: -140px;
+    position: absolute;
+}
+.jupitertxt{
+    margin-top: 150px;
+    margin-left: 70px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+@media(max-width:1050px){
+    .saturn{
+        display: none;
+    }
+    .saturntxt{
+        display: none;
+    }
+}
+.saturn{
+    transform: rotate(-45deg);
+    width: 380px;
+    height: 190px;
+    margin-top: 320px;
+    margin-left: -220px;
+    position: absolute;
+}
+.saturntxt{
+    margin-top: 150px;
+    margin-left: 150px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+@media(max-width:1280px){
+    .uranus{
+        display: none;
+    }
+    .uranustxt{
+        display: none;
+    }
+}
+
+.uranus{
+    width: 60px;
+    height: 60px;
+    margin-top: 395px;
+    margin-left: -70px;
+    position: absolute;
+}
+.uranustxt{
+    margin-top: 150px;
+    margin-left: 130px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+@media(max-width:1380px){
+    .neptune{
+        display: none;
+    }
+    .neptunetxt{
+        display: none;
+    }
+}
+
+.neptune{
+    width: 55px;
+    height: 55px;
+    margin-top: 395px;
+    margin-left: -70px;
+    position: absolute;
+}
+.neptunetxt{
+    margin-top: 150px;
+    margin-left: 50px;
+    transform: rotate(-45deg);
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.sun:hover{
+    transform:scale(1.1,1.1);
+    transition:transform 0.25s ease;
+}
+
+ .mercury:hover{
+    transform:scale(3,3);
+    transition:transform 0.25s ease;
+}
+
+.venus:hover{
+    transform:scale(3,3);
+    transition:transform 0.25s ease;
+}
+
+.earth:hover{
+    transform:scale(2.5,2.5);
+    transition:transform 0.25s ease;
+}
+
+.mars:hover{
+    transform:scale(3,3);
+    transition:transform 0.25s ease;
+}
+
+.jupiter:hover{
+    transform:scale(1.25,1.25);
+    transition:transform 0.25s ease;
+}
+
+.saturn:hover{
+    transform:scale(1.25,1.25);
+    transition:transform 0.25s ease;
+}
+
+.uranus:hover{
+    transform:scale(1.5,1.5);
+    transition:transform 0.25s ease;
+}
+
+.neptune:hover{
+    transform:scale(1.5,1.5);
+    transition:transform 0.25s ease;
+}
+
+.ps{
+    width:300px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    background-color: #A0A0A0;
+    margin-top: 400px;
+    font-family: "微軟正黑體",Arial;
+    font-weight: bold;
+}
+
+.starworldtxt{
+    text-align: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    margin-top: 100px;
+}
+
+.startitle{
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    font-size: 42px;
+    color: #A0A0A0;
+}
+
+.startxt{
+    font-family: "微軟正黑體";
+    font-style: normal;
+    font-size: 24px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+
+.explore{
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.exploretitle{
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    font-size: 36px;
+    color: #A0A0A0;
+}
+.exploretxt{
+    font-family: "微軟正黑體";
+    font-style: normal;
+    font-size: 24px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+
+.footer {
+    background: #000;
+    position: absolute;
+   bottom: 0px;
+  }
